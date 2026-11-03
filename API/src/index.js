@@ -1,7 +1,14 @@
+import "dotenv/config";
 import express from "express";
 import mongoose from "mongoose";
 
-mongoose.connect('mongodb+srv://nicolasgabriel069:wRssyT7FNt9xutgo@api.uay4t.mongodb.net/?retryWrites=true&w=majority&appName=API');
+const mongoUri = process.env.MONGODB_URI;
+if (!mongoUri) {
+    console.error("Erro: variável de ambiente MONGODB_URI não definida no arquivo .env");
+    process.exit(1);
+}
+
+mongoose.connect(mongoUri);
 
 const app = express();
 app.use(express.json())
