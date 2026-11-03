@@ -4,7 +4,7 @@
 ![Express.js](https://img.shields.io/badge/Express.js-000000?style=for-the-badge&logo=express&logoColor=white)
 ![MongoDB](https://img.shields.io/badge/MongoDB_Atlas-47A248?style=for-the-badge&logo=mongodb&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JavaScript_ES6+-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
-![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=githubactions&logoColor=white)
+
 
 Repositório prático reunindo a evolução dos meus estudos de desenvolvimento **Back-end e APIs RESTful com Node.js**, partindo de servidores HTTP nativos até APIs completas com **Express.js**, persistência em nuvem no **MongoDB Atlas (Mongoose ODM)**, variáveis de ambiente (`dotenv`) e pipeline de Integração Contínua (**GitHub Actions**).
 
@@ -29,7 +29,6 @@ Repositório prático reunindo a evolução dos meus estudos de desenvolvimento 
 - **MongoDB Atlas & Mongoose ODM** — Modelagem de schemas e persistência NoSQL em nuvem
 - **Dotenv** — Gerenciamento seguro de credenciais via variáveis de ambiente (`.env`)
 - **Nodemon** — Reload automático em ambiente de desenvolvimento
-- **GitHub Actions** — Workflow de CI (`.github/workflows/node.js.yml`) em matriz Node `18.x`, `20.x` e `22.x`
 
 ---
 
@@ -41,7 +40,7 @@ Repositório prático reunindo a evolução dos meus estudos de desenvolvimento 
 
 ### 1. Clonar o repositório
 ```bash
-git clone https://github.com/Nicolas1548/minhas-api.git
+git clone https://github.com/Nicolas1548/nodejs-rest-api-mongodb
 cd minhas-api
 ```
 
